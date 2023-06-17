@@ -169,7 +169,7 @@
     color: #777;
 }
 /*Responsive cho section-two */
-@media (max-width: 1200px) {
+ @media (max-width: 1200px) {
     .section-two .inner-wrap .inner-box{
         width: 25%;
     }
@@ -188,7 +188,16 @@
 }
 @media (max-width: 768px){
     .section-two .inner-wrap .inner-box{
-        width: 33%;
+        width: 100%;
+    }
+}
+@media (max-width: 576px){
+    .section-two .inner-wrap .inner-box{
+        width: 100%;
+    }
+    .section-two .inner-wrap .inner-box .inner-content{
+        max-width: 300px;
+
     }
 }
 /*End Section 2*/
@@ -230,10 +239,8 @@
     .section-three .inner-wrap .inner-content{
         width: 100%;
     }
-}
-
+} */
 /*End Section 3*/
-
 /*Section 4*/
 .section-four{
     padding: 100px 0;
@@ -272,7 +279,6 @@
     }
 }
 /*End Section 4*/
-
 /*Section 5*/
 .section-five{
     background-image: url(../image/work-process-bg.png);
@@ -345,6 +351,7 @@
     font-size: 14px;
     margin: 0 20px;
 }
+
 /*Responsive cho section-five */
 @media (max-width: 992px){
     .section-five{
